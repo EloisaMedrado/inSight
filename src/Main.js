@@ -29,7 +29,7 @@ function Main() {
       }, 60 * 10000);
     })
     .catch(function (error) {
-      console.log(error);
+      history.push('/error');
     });
   }, []);
 

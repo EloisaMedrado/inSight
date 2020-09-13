@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './Main';
 import About from './About';
+import Error from './Error';
 import * as serviceWorker from './serviceWorker';
 
 function Routes() {
@@ -13,6 +14,7 @@ function Routes() {
           <Switch>
              <Route exact path="/" component = {Main} />
              <Route exact path="/about" component={About} />
+             <Route exact path="/error" component={Error} />
           </Switch>
         </div>
       </Router>
