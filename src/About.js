@@ -21,9 +21,9 @@ function About(props) {
     <div className="About">
       <div className="InnerAbout">
         <p className="border">Sol: {sols.sol}</p>
-        <p className="border">Minimun: {sols.low}</p>
-        <p className="border">Average: {sols.average}</p>
-        <p className="border">High: {sols.high}</p>
+        <p className="border">Low: {sols.low}° F</p>
+        <p className="border">Average: {sols.average}° F</p>
+        <p className="border">High: {sols.high}° F</p>
 
         <button onClick={goBackMain}>Go back</button>
         <p>Last Update: {lastUpdate}</p>
