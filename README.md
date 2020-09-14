@@ -23,7 +23,7 @@ Execute the following commands:
 After that you should have a page in your browser running the application.
 Example: http://localhost:3000/
 
-### API
+### Application
 At the home page you should see a DataTable with the Sol Id and its average temperature.
 To see a more detailed information about the Sol you can double click a row to go to the about page.
 At the about page you will have the Sol Id, Minimun temperature, Average temperature, High temperature and the last update time.
