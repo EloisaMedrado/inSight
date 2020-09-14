@@ -12,7 +12,7 @@ const columns = [
     sortable: true,
   },
   {
-    name: 'Average',
+    name: 'Average ° C',
     selector: 'average',
     sortable: true,
     right: true,
