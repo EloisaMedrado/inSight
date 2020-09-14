@@ -26,7 +26,7 @@ function Main() {
       setData(response.data);
       setTimeout(function () {
         window.location.reload();
-      }, 60 * 10000);
+      }, 30 * 10000);
     })
     .catch(function (error) {
       history.push('/error');
