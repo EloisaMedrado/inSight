@@ -43,7 +43,7 @@ function Main() {
 
   const history = useHistory();
   function openSolAbout(e) {
-    history.push('/about', {sols: e, lastUpdate: lastUpdateDate});
+    history.push('/about', {sol: e.sol, lastUpdate: lastUpdateDate});
   };
 
   return (
